@@ -15,7 +15,7 @@ $(document).ready(function(){
                 $("#scriviqui").text(res.risp);
             },
             error: function(res){
-                console.log("Erroree: "+ err);
+                console.log("Erroree: "+ res);
             }
         });
     });
