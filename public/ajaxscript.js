@@ -4,7 +4,7 @@ $(document).ready(function(){
         var dati = $("#username").val();
         
         $.ajax({
-            url: "https://basi2-22jpnfxn6.vercel.app/",
+            url: "https://basi2.vercel.app/",
             data: {
                 username: dati
             },
