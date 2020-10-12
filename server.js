@@ -18,7 +18,7 @@ app.use(express.static("public"));
     res.send("ajax.html");
 }); */
 
-app.post("https://basi2-22jpnfxn6.vercel.app/", (req, res)=>{
+app.post("https://basi2.vercel.app/", (req, res)=>{
     var data = JSON.stringify(req.body);
     console.log(data);
 
